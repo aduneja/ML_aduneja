@@ -1,0 +1,33 @@
+{
+  "id": "acef95d1-aedb-445d-8c3b-c44f12b9bc86",
+  "parentId": "ef4f103e-e8b9-4ce6-9779-cfffc374169c",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Isolation - yes - custom - fallback",
+  "auto": false,
+  "contexts": [
+    "Isolation-yes-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Try entering a relevant answer. If not, Please restart your conversation"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543693011,
+  "fallbackIntent": true,
+  "events": []
+}

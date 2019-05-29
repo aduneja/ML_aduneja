@@ -1,0 +1,54 @@
+{
+  "id": "e5c19caf-59f4-4cc6-95b1-8d5f6f5de3a0",
+  "parentId": "3009f454-48ce-4bba-b365-f2c8bdb08d85",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Meal_Type",
+  "auto": true,
+  "contexts": [
+    "Isolation-yes-custom-yes-selectnumber-followup",
+    "Numberofmeals-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber.Numberofmeals-custom",
+      "affectedContexts": [
+        {
+          "name": "Meal_Type-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2ead04e0-20ab-44f2-ae70-e76963db114c",
+          "required": true,
+          "dataType": "@Meals",
+          "name": "Meals",
+          "value": "$Meals",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok. Your meal type was recorded. What is your favorite cuisine? (Enter 0 for Thai, 1 For Indian, 2 for Chinese, 3 for Mexican, 4 for  Korean, 5 for others.)"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543797128,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "id": "0cc85700-bcbb-4d67-a9ce-4d9c8bdaeb2e",
+    "data": [
+      {
+        "text": "Ok. You are right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692256
+  },
+  {
+    "id": "41ba6d86-8b0e-48fb-a390-767b659d9981",
+    "data": [
+      {
+        "text": "I am",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692256
+  },
+  {
+    "id": "935284ff-41d3-4e50-9cb5-8de7e9631260",
+    "data": [
+      {
+        "text": "Yeah I am.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692256
+  },
+  {
+    "id": "4f77205e-7243-4430-a53c-07d253d2499c",
+    "data": [
+      {
+        "text": "Ok. If you say so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692256
+  },
+  {
+    "id": "35f70c59-0269-45ef-92ab-94434f5e24f4",
+    "data": [
+      {
+        "text": "Hmm I think so",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692256
+  },
+  {
+    "id": "455049ef-865b-4df1-996a-74b6132e0973",
+    "data": [
+      {
+        "text": "Ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692256
+  },
+  {
+    "id": "d65b133c-e113-4cf4-b608-f44fec81ffda",
+    "data": [
+      {
+        "text": "Yeah you are right.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543099729
+  },
+  {
+    "id": "cd7e411f-d41c-4403-8842-c259e36f1f7f",
+    "data": [
+      {
+        "text": "Yes.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543099729
+  },
+  {
+    "id": "3e0981ae-77ee-4d2f-b733-ab3d2179abd5",
+    "data": [
+      {
+        "text": "Can you suggest me some ways to be more social?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543096422
+  },
+  {
+    "id": "6a354a35-2191-4a0a-841a-c0518d9c3d68",
+    "data": [
+      {
+        "text": "Can you ",
+        "userDefined": false
+      },
+      {
+        "text": "connect",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": true
+      },
+      {
+        "text": " me to some people around me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543095771
+  }
+]

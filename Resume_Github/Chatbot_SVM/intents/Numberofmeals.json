@@ -1,0 +1,58 @@
+{
+  "id": "3009f454-48ce-4bba-b365-f2c8bdb08d85",
+  "parentId": "6b75a689-0cc7-4f2d-b955-36ab75b2e180",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Numberofmeals",
+  "auto": true,
+  "contexts": [
+    "Isolation-yes-custom-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "Isolation-yes-custom-yes-selectnumber-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "Numberofmeals-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4f4dc88f-b532-4e82-90e8-dbef52b0708f",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "The  number of meals you cook in a week are $number . So, what kind of food do you like? Vegetarian or Non Vegetarian?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543692621,
+  "fallbackIntent": false,
+  "events": []
+}

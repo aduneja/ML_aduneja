@@ -1,0 +1,41 @@
+{
+  "id": "1d6d74f4-6af9-4a9e-b213-90589ef792c2",
+  "parentId": "4b3d40d2-e9d6-4355-9c3f-c21d69db84c3",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Age - fallback - select.number",
+  "auto": true,
+  "contexts": [
+    "Age-fallback-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber.Numberofmeals-custom.Meal_Type-custom.Dish-selectnumber.Dish-selectnumber-selectnumber.Age-fallback.Age-fallback-selectnumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4f4dc88f-b532-4e82-90e8-dbef52b0708f",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124798,
+  "fallbackIntent": false,
+  "events": []
+}

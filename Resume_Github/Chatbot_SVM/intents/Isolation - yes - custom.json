@@ -1,0 +1,42 @@
+{
+  "id": "ef4f103e-e8b9-4ce6-9779-cfffc374169c",
+  "parentId": "fadf1519-62c8-4c1b-8c5c-274caf0e380b",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Isolation - yes - custom",
+  "auto": true,
+  "contexts": [
+    "Isolation-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "Isolation-yes-custom-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "But I would like to get to know your food habits better for that.",
+            "But you would have to cooperate with me then! Can I get to know your food habits?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543692489,
+  "fallbackIntent": false,
+  "events": []
+}

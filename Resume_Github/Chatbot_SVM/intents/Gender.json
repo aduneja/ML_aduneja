@@ -1,0 +1,48 @@
+{
+  "id": "a30034fa-9f3e-4547-9556-51dfcb3d9505",
+  "parentId": "d9969d0d-a53b-4789-818c-67ca7fc9c0b6",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Gender",
+  "auto": true,
+  "contexts": [
+    "Age-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber.Numberofmeals-custom.Meal_Type-custom.Dish-selectnumber.Dish-selectnumber-selectnumber.Age-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "Gender-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4f4dc88f-b532-4e82-90e8-dbef52b0708f",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "gender",
+          "value": "$gender",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Your gender is $gender."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543781572,
+  "fallbackIntent": false,
+  "events": []
+}

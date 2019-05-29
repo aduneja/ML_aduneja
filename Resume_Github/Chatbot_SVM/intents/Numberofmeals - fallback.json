@@ -1,0 +1,34 @@
+{
+  "id": "7f339fcb-3179-447f-a2f6-58e8f8371247",
+  "parentId": "3009f454-48ce-4bba-b365-f2c8bdb08d85",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Numberofmeals - fallback",
+  "auto": false,
+  "contexts": [
+    "Isolation-yes-custom-yes-selectnumber-followup",
+    "Numberofmeals-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber.Numberofmeals-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Try entering a relevant answer. If not, Please restart your conversation"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543693173,
+  "fallbackIntent": true,
+  "events": []
+}

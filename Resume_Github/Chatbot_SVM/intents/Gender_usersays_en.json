@@ -1,0 +1,52 @@
+[
+  {
+    "id": "0690fc83-0c0f-4844-b4c0-fad5caad5f7b",
+    "data": [
+      {
+        "text": "I am a ",
+        "userDefined": false
+      },
+      {
+        "text": "$gender",
+        "alias": "gender",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543781221
+  },
+  {
+    "id": "59e45c2b-6c2f-43a6-9b37-c0ea78d344fd",
+    "data": [
+      {
+        "text": "My gender is ",
+        "userDefined": false
+      },
+      {
+        "text": "$gender",
+        "alias": "gender",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543781221
+  },
+  {
+    "id": "e1538c45-5a66-4f24-aa6b-220439143c58",
+    "data": [
+      {
+        "text": "$gender",
+        "alias": "gender",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543781221
+  }
+]

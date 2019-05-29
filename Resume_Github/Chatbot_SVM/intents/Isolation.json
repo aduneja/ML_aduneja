@@ -1,0 +1,54 @@
+{
+  "id": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Isolation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Isolation-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "428dc757-c1eb-4323-a897-50fb117617ff",
+          "required": false,
+          "dataType": "@Isolation",
+          "name": "Isolation",
+          "value": "$Isolation",
+          "isList": true
+        },
+        {
+          "id": "859560b7-e8e8-4bab-8b9f-2841a176bbdc",
+          "required": false,
+          "dataType": "@Meals",
+          "name": "Meals",
+          "value": "$Meals",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Do you feel like you are socially isolated?",
+            "I think you are socially isolated."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543692052,
+  "fallbackIntent": false,
+  "events": []
+}

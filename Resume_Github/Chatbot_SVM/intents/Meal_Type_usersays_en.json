@@ -1,0 +1,34 @@
+[
+  {
+    "id": "326e90bf-58fe-46fc-a540-c44a51046760",
+    "data": [
+      {
+        "text": "$meal_type",
+        "alias": "Meals",
+        "meta": "@Meals",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543303258
+  },
+  {
+    "id": "02ad9f78-b076-4e16-b30c-fb83d3a87bbc",
+    "data": [
+      {
+        "text": "I prefer ",
+        "userDefined": false
+      },
+      {
+        "text": "$meal_type",
+        "alias": "Meals",
+        "meta": "@Meals",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543303258
+  }
+]

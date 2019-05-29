@@ -1,0 +1,33 @@
+{
+  "id": "f41e48a9-13f2-4ff7-ac63-3f0a05ca7b63",
+  "parentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Isolation - fallback",
+  "auto": false,
+  "contexts": [
+    "Isolation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Can we talk about social isolation please?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543221696,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "value": "Alone",
+    "synonyms": [
+      "Alone",
+      "All by yourself",
+      "Lonely"
+    ]
+  },
+  {
+    "value": "wish",
+    "synonyms": [
+      "wish"
+    ]
+  },
+  {
+    "value": "isolated",
+    "synonyms": [
+      "isolated"
+    ]
+  },
+  {
+    "value": "share",
+    "synonyms": [
+      "share"
+    ]
+  },
+  {
+    "value": "friends",
+    "synonyms": [
+      "friends"
+    ]
+  },
+  {
+    "value": "connect",
+    "synonyms": [
+      "connect"
+    ]
+  },
+  {
+    "value": "rating",
+    "synonyms": [
+      "rating"
+    ]
+  },
+  {
+    "value": "depressed",
+    "synonyms": [
+      "depressed",
+      "anxious"
+    ]
+  }
+]

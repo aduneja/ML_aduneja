@@ -1,0 +1,39 @@
+{
+  "id": "4b3d40d2-e9d6-4355-9c3f-c21d69db84c3",
+  "parentId": "d9969d0d-a53b-4789-818c-67ca7fc9c0b6",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Age - fallback",
+  "auto": false,
+  "contexts": [
+    "Age-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber.Numberofmeals-custom.Meal_Type-custom.Dish-selectnumber.Dish-selectnumber-selectnumber.Age-fallback",
+      "affectedContexts": [
+        {
+          "name": "Age-fallback-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Try entering a relevant answer. If not, Please restart your conversation."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543780187,
+  "fallbackIntent": true,
+  "events": []
+}

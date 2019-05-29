@@ -1,0 +1,51 @@
+{
+  "id": "fadf1519-62c8-4c1b-8c5c-274caf0e380b",
+  "parentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Isolation - yes",
+  "auto": true,
+  "contexts": [
+    "Isolation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes",
+      "affectedContexts": [
+        {
+          "name": "Isolation-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1d5b83e6-cf45-451c-b238-efbeb71ef79b",
+          "required": false,
+          "dataType": "@Isolation",
+          "name": "Isolation",
+          "value": "$Isolation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Don\u0027t worry. I can connect you to various people  living nearby.",
+            "There are a lot of people feeling the same way that you are. Just relax, I\u0027ll  help you to get in touch with them."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543692256,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "value": "Meals",
+    "synonyms": [
+      "Food",
+      "Dish"
+    ]
+  },
+  {
+    "value": "eating",
+    "synonyms": [
+      "eating"
+    ]
+  },
+  {
+    "value": "Meal_type",
+    "synonyms": [
+      "Meal_type"
+    ]
+  },
+  {
+    "value": "Favorite Dish",
+    "synonyms": [
+      "Favorite Dish"
+    ]
+  },
+  {
+    "value": "n_meals",
+    "synonyms": [
+      "n_meals"
+    ]
+  },
+  {
+    "value": "alone_meals",
+    "synonyms": [
+      "alone_meals"
+    ]
+  },
+  {
+    "value": "Non Vegetarian",
+    "synonyms": [
+      "Non Vegetarian",
+      "Non-Veg"
+    ]
+  },
+  {
+    "value": "$",
+    "synonyms": [
+      "$"
+    ]
+  },
+  {
+    "value": "Burgers",
+    "synonyms": [
+      "Burgers",
+      "Sandwiches"
+    ]
+  },
+  {
+    "value": "Pizza",
+    "synonyms": [
+      "Pizza"
+    ]
+  },
+  {
+    "value": "Hamburger",
+    "synonyms": [
+      "Hamburger"
+    ]
+  },
+  {
+    "value": "Meat",
+    "synonyms": [
+      "Meat",
+      "Chicken",
+      "Beef",
+      "Pork",
+      "Mutton"
+    ]
+  },
+  {
+    "value": "Fish",
+    "synonyms": [
+      "Fish"
+    ]
+  },
+  {
+    "value": "Cereals",
+    "synonyms": [
+      "Cereals"
+    ]
+  },
+  {
+    "value": "Rice",
+    "synonyms": [
+      "Rice",
+      "Fried Rice"
+    ]
+  },
+  {
+    "value": "Vegetables",
+    "synonyms": [
+      "Vegetables",
+      "Tomatoes",
+      "Potatoes",
+      "Onions"
+    ]
+  },
+  {
+    "value": "Vegetarian",
+    "synonyms": [
+      "Vegetarian"
+    ]
+  }
+]

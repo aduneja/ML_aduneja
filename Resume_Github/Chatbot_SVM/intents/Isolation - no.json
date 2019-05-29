@@ -1,0 +1,36 @@
+{
+  "id": "ac14a2ab-077f-435b-9013-260f8778755a",
+  "parentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Isolation - no",
+  "auto": true,
+  "contexts": [
+    "Isolation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sure, no problem. I \u0027ll set your isolation level to 1.",
+            "That\u0027s great. You can help other socially isolated people around you."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543096773,
+  "fallbackIntent": false,
+  "events": []
+}

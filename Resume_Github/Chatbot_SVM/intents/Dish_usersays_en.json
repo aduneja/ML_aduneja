@@ -1,0 +1,70 @@
+[
+  {
+    "id": "f7668139-4a71-488c-a60a-822475685a89",
+    "data": [
+      {
+        "text": "I love ",
+        "userDefined": false
+      },
+      {
+        "text": "$dish",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692797
+  },
+  {
+    "id": "5035b794-d68e-406d-b5e5-44356f8c5f63",
+    "data": [
+      {
+        "text": "$dish",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " is my favorite cuisine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692797
+  },
+  {
+    "id": "209a210e-3a3c-4cfe-8f58-234b67d3b327",
+    "data": [
+      {
+        "text": "My favorite cuisine is  ",
+        "userDefined": false
+      },
+      {
+        "text": "$dish",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543651514
+  },
+  {
+    "id": "f2d457c2-8164-4280-a67f-736a84cbfef6",
+    "data": [
+      {
+        "text": "$dish",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543306850
+  }
+]

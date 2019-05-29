@@ -1,0 +1,33 @@
+{
+  "id": "b1cb7cdf-3c70-4935-9e86-7cf03581b6a1",
+  "parentId": "2ad7976e-5dba-4c8d-b0ae-29e3646d6737",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Dish - fallback",
+  "auto": false,
+  "contexts": [
+    "Dish-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber.Numberofmeals-custom.Meal_Type-custom.Dish-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Try entering a relevant answer. If not, Please restart your conversation."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543693356,
+  "fallbackIntent": true,
+  "events": []
+}

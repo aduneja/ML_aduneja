@@ -1,0 +1,39 @@
+{
+  "id": "6b75a689-0cc7-4f2d-b955-36ab75b2e180",
+  "parentId": "ef4f103e-e8b9-4ce6-9779-cfffc374169c",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Isolation - yes - custom - yes",
+  "auto": true,
+  "contexts": [
+    "Isolation-yes-custom-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes",
+      "affectedContexts": [
+        {
+          "name": "Isolation-yes-custom-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hmm. So,  how many meals do you cook in a week?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543655217,
+  "fallbackIntent": false,
+  "events": []
+}

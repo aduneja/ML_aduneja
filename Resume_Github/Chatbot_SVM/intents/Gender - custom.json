@@ -1,0 +1,33 @@
+{
+  "id": "0a69246d-4b26-49e0-93c4-1f31110f06b1",
+  "parentId": "a30034fa-9f3e-4547-9556-51dfcb3d9505",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Gender - custom",
+  "auto": true,
+  "contexts": [
+    "Gender-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber.Numberofmeals-custom.Meal_Type-custom.Dish-selectnumber.Dish-selectnumber-selectnumber.Age-selectnumber.Gender-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Thanks for all your responses. I will try my best to help you socialize!You can go to http://breakingbreadtogether.mybluemix.net to check your social isolation level."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543781900,
+  "fallbackIntent": false,
+  "events": []
+}

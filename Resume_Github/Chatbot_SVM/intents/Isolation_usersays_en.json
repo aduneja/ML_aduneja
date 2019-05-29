@@ -1,0 +1,205 @@
+[
+  {
+    "id": "754cb44b-eadc-4395-b4b1-3b457a024bf6",
+    "data": [
+      {
+        "text": "I am fed up of ",
+        "userDefined": false
+      },
+      {
+        "text": "eating",
+        "alias": "Meals",
+        "meta": "@Meals",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "alone",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692052
+  },
+  {
+    "id": "69f06da1-e1c7-4a18-9f17-391317b31d37",
+    "data": [
+      {
+        "text": "I do not want to be ",
+        "userDefined": false
+      },
+      {
+        "text": "alone",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543692052
+  },
+  {
+    "id": "fcc03b34-f522-489a-8a44-9e36b47f14db",
+    "data": [
+      {
+        "text": "I think I have no ",
+        "userDefined": false
+      },
+      {
+        "text": "friends",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543029205
+  },
+  {
+    "id": "94249a6f-381d-4443-b0f7-638e656e2928",
+    "data": [
+      {
+        "text": "I have no ",
+        "userDefined": false
+      },
+      {
+        "text": "friends",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543029205
+  },
+  {
+    "id": "966f3849-50d4-4a2f-8b7d-478816468675",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "isolated",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": true
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542963366
+  },
+  {
+    "id": "86d165f3-4151-4496-aa55-c946909b2d3e",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "wish",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": true
+      },
+      {
+        "text": " I was ",
+        "userDefined": false
+      },
+      {
+        "text": "eating",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " with someone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1543029205
+  },
+  {
+    "id": "29c59307-ede2-4c41-aece-1f2cefadaa3f",
+    "data": [
+      {
+        "text": "I want to ",
+        "userDefined": false
+      },
+      {
+        "text": "share",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": true
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "food",
+        "alias": "Meals",
+        "meta": "@Meals",
+        "userDefined": false
+      },
+      {
+        "text": " with someone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542963366
+  },
+  {
+    "id": "ecbfb800-2572-4ffd-a85b-2353798f4b00",
+    "data": [
+      {
+        "text": "I don\u0027t want to eat ",
+        "userDefined": false
+      },
+      {
+        "text": "alone",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542963366
+  },
+  {
+    "id": "d5d3bdd4-bbc5-4dd1-b0a1-ecc93e4b412e",
+    "data": [
+      {
+        "text": "I am feeling ",
+        "userDefined": false
+      },
+      {
+        "text": "lonely",
+        "alias": "Isolation",
+        "meta": "@Isolation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542963366
+  }
+]

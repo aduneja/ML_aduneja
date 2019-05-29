@@ -1,0 +1,53 @@
+{
+  "id": "2ad7976e-5dba-4c8d-b0ae-29e3646d6737",
+  "parentId": "e5c19caf-59f4-4cc6-95b1-8d5f6f5de3a0",
+  "rootParentId": "a5bb0624-58e4-47bc-ad18-c02b7eebe47a",
+  "name": "Dish",
+  "auto": true,
+  "contexts": [
+    "Meal_Type-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Isolation.Isolation-yes.Isolation-yes-custom.Isolation-yes-custom-yes.Isolation-yes-custom-yes-selectnumber.Numberofmeals-custom.Meal_Type-custom",
+      "affectedContexts": [
+        {
+          "name": "Dish-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9474edbd-8d13-4877-8a85-f772d46b65ad",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, your favorite cuisine is  $number . On a scale of 1 -10,  how would you rate the idea of  eating with  someone?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1543784802,
+  "fallbackIntent": false,
+  "events": []
+}
